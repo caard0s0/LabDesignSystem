@@ -5,7 +5,7 @@ import { clsx } from 'clsx';
 export interface ButtonProps {
     children: ReactNode;
     asChild?: boolean; 
-}
+};
 
 export function Button({ children, asChild }: ButtonProps) {
     const Comp = asChild ? Slot : 'button';
